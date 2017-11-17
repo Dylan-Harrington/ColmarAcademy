@@ -18,7 +18,7 @@ header .container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /*border: 1px solid gold; /* Container Border */
+  /* border: 1px solid gold; /* Container Border */
   width: 80%;
   padding: 0 1.5rem;
   height: 4rem;
@@ -49,7 +49,7 @@ header h3 {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1140px) {
   header .container {
     width: 100%;
   }
@@ -64,12 +64,12 @@ header h3 {
 
 .box .container {
   display: flex;
-  /*border: 1px solid gold; /* Container Border */
+  /* border: 1px solid gold; /* Container Border */
   width: 80%;
   padding: 0 1.5rem;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1140px) {
   .box .container {
     width: 100%;
   }
@@ -111,7 +111,7 @@ header h3 {
 
 .box.one .right .button {
   background-color: hsla(125, 15%, 52%, 1);
-  color: hsla(125, 15%, 73%, 1);
+  color: black;
   text-align: center;
   padding: .75rem 0;
 }
@@ -121,4 +121,104 @@ header h3 {
   margin-bottom: 1.5rem;
   max-width: 290px;
   line-height: 1.2;
+  color: hsla(45, 41%, 30%, 1);
+}
+
+/* Box Two ONLY Styles */
+
+.box.two {
+  background-color: hsla(45, 41%, 50%, 1);
+}
+
+.box.two .left {
+  flex-direction: column;
+  align-items: flex-start;
+  color: hsla(45, 41%, 20%, 1);
+}
+
+.box.two .left h2 {
+  margin: 2rem 0 1.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.box.two .left p {
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.box.two .left p.byline {
+  margin-bottom: 0;
+  line-height: 1;
+  font-size: .85rem;
+}
+
+@media only screen and (max-width: 1140px) {
+  .box.two .left {
+    width: 50%;
+  }
+}
+
+  /* Sidebar Styles (inside box two) */
+
+.box.two .right .sidebar {
+  display: flex;
+  width: 100%;
+  margin-left: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid hsla(45, 41%, 70%, 1);
+  color: hsla(45, 41%, 20%, 1);
+}
+
+.box.two .right {
+  width: 40%;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.box.two .sidebar img {
+  width: 35%;
+  height: 100%;
+}
+
+.box.two .sidebar .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+
+.box.two .sidebar h4,
+.box.two .sidebar p {
+  padding-left: 1rem;
+}
+
+.box.two .sidebar h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: .75rem;
+  line-height: 1.2;
+}
+
+.box.two .sidebar p {
+  padding-bottom: .75rem;
+  line-height: 1.2;
+}
+
+.box.two .sidebar p.read_more { /* Eliminates Padding on Red More link */
+  padding-bottom: 0;
+  font-size: .85rem;
+  color: hsla(45, 41%, 70%, 1);
+  text-decoration: underline;
+}
+
+.box.two .right .sidebar:last-child {
+  background-color: hsla(125, 15%, 52%, 1);
+  color: black;
+  border-bottom: none;
+}
+
+.box.two .right .sidebar:last-child p.read_more {
+  color: hsla(125, 15%, 73%, 1);
 }
