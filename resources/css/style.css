@@ -18,7 +18,7 @@ header .container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* border: 1px solid gold; /* Container Border */
+  /*border: 1px solid gold; /* Container Border */
   width: 80%;
   padding: 0 1.5rem;
   height: 4rem;
@@ -258,12 +258,13 @@ header h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .box.start_learning .subject_box {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 28%;
   margin: 1rem;
   background-color: hsla(45, 41%, 60%, 1);
   border: 1px solid hsla(45, 41%, 60%, 1);
@@ -351,4 +352,41 @@ header h3 {
 .box.thesis .right {
   justify-content: flex-start; /*overriding rules found in box 2 sidebar section*/
   margin: 0;
+}
+
+/* Footer Styles */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: hsla(125, 15%, 52%, 1);
+  font-size: .85rem;
+  color: hsla(125, 15%, 73%, 1);
+}
+
+footer .container {
+  display: flex;
+  /*border: 1px solid gold; /* Container Border */
+  height: 4rem;
+  width: 80%;
+  justify-content: flex-end;
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+footer li {
+  display: inline-block;
+}
+
+footer li:first-child {
+  margin-right: 1rem;
+}
+
+footer p {
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1140px) {
+  footer .container {
+    width: 100%;
+  }
 }
