@@ -6,6 +6,10 @@ html {
   font-family: "Work Sans", sans-serif;
 }
 
+.mobile {
+  display: none;
+}
+
 /* Header Styles */
 
 header {
