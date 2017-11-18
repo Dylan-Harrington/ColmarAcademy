@@ -55,6 +55,11 @@ header h3 {
   }
 }
 
+header li:hover {
+  color: black;
+  transition: color 400ms ease-out 50ms;
+}
+
 /* Main Section Styles */
 
 .box {
@@ -122,6 +127,13 @@ header h3 {
   max-width: 290px;
   line-height: 1.2;
   color: hsla(45, 41%, 30%, 1);
+}
+
+.box.one .right .button:hover {
+  background-color: hsla(45, 41%, 30%, 1);
+  color: hsla(45, 41%, 60%, 1);
+  border-radius: 1.5rem;
+  transition: all 400ms ease-out 75ms;
 }
 
 /* Box Two ONLY Styles (....& some styles for Box Thesis....)*/
@@ -235,6 +247,31 @@ header h3 {
   color: hsla(125, 15%, 73%, 1);
 }
 
+.box.two .right .sidebar:hover {
+  background-color: hsla(45, 41%, 60%, 1);
+  border-radius: 1.5rem;
+  transition: all 400ms ease-out 75ms;
+}
+
+.box.two .right .sidebar:last-child:hover {
+  background-color: hsla(45, 41%, 40%, 1);
+}
+
+.box.two .right .sidebar:last-child:hover > .info p.read_more {
+  color: hsla(45, 41%, 70%, 1);
+}
+
+.box.two .right .sidebar:hover > img {
+  border-radius: 1rem;
+  transition: all 400ms ease-out 75ms;
+}
+
+.box.two .right .sidebar:hover > .info p.read_more {
+  color: hsla(45, 41%, 80%, 1);
+  transition: all 400ms ease-out 75ms;
+}
+
+
 /* Box Start_Learning Styles */
 
 .box.start_learning {
@@ -291,6 +328,25 @@ header h3 {
 
 .box.start_learning .subject_box p:last-child {
   padding-top: 0;
+}
+
+.box.start_learning .subject_box:hover {
+  border-radius: 1.5rem;
+  background-color: hsla(125, 15%, 52%, 1);
+  border: 1px solid hsla(125, 15%, 52%, 1);
+  color: hsla(125, 15%, 73%, 1);
+  transition: all 400ms ease-out 75ms;
+}
+
+.box.start_learning .subject_box:hover > img {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  transition: all 400ms ease-out 75ms;
+}
+
+.box.start_learning .subject_box:hover > h4 {
+  color: black;
+  transition: all 400ms ease-out 75ms;
 }
 
 /* Box Thesis Styles */
@@ -354,6 +410,17 @@ header h3 {
   margin: 0;
 }
 
+.box.thesis .sidebar:hover {
+  background-color: hsla(45, 41%, 40%, 1);
+  border-radius: 1.5rem;
+  transition: all 400ms ease-out 75ms;
+}
+
+.box.thesis .sidebar:hover > img {
+  border-radius: 1rem;
+  transition: all 400ms ease-out 75ms;
+}
+
 /* Footer Styles */
 
 footer {
@@ -389,4 +456,9 @@ footer p {
   footer .container {
     width: 100%;
   }
+}
+
+footer li:hover {
+  color: black;
+  transition: color 400ms ease-out 50ms;
 }
