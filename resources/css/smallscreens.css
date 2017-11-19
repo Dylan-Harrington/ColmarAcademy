@@ -49,6 +49,11 @@
     margin-bottom: 0;
   }
 
+  .box.one .right p.button:active {
+    background-color: hsla(45, 41%, 30%, 1);
+    color: hsla(45, 41%, 60%, 1);
+  }
+
 /* Box Two Styles */
 
   .box.two .left {
