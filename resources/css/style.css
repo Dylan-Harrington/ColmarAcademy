@@ -61,6 +61,7 @@ header h3 {
 
 header li:hover {
   color: black;
+  -webkit-transition: color 400ms ease-out 50ms;
   transition: color 400ms ease-out 50ms;
 }
 
@@ -138,6 +139,7 @@ header li:hover {
     background-color: hsla(45, 41%, 30%, 1);
     color: hsla(45, 41%, 60%, 1);
     border-radius: 1.5rem;
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 }
@@ -257,6 +259,7 @@ header li:hover {
   .box.two .right .sidebar:hover {
     background-color: hsla(45, 41%, 60%, 1);
     border-radius: 1.5rem;
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 
@@ -270,11 +273,13 @@ header li:hover {
 
   .box.two .right .sidebar:hover > img {
     border-radius: 1rem;
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 
   .box.two .right .sidebar:hover > .info p.read_more {
     color: hsla(45, 41%, 80%, 1);
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 }
@@ -344,17 +349,20 @@ header li:hover {
     background-color: hsla(125, 15%, 52%, 1);
     border: 1px solid hsla(125, 15%, 52%, 1);
     color: hsla(125, 15%, 73%, 1);
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 
   .box.start_learning .subject_box:hover > img {
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 
   .box.start_learning .subject_box:hover > h4 {
     color: black;
+    -webkit-transition: all 400ms ease-out 75ms;
     transition: all 400ms ease-out 75ms;
   }
 }
@@ -423,11 +431,13 @@ header li:hover {
 .box.thesis .sidebar:hover {
   background-color: hsla(45, 41%, 40%, 1);
   border-radius: 1.5rem;
+  -webkit-transition: all 400ms ease-out 75ms;
   transition: all 400ms ease-out 75ms;
 }
 
 .box.thesis .sidebar:hover > img {
   border-radius: 1rem;
+  -webkit-transition: all 400ms ease-out 75ms;
   transition: all 400ms ease-out 75ms;
 }
 
@@ -470,5 +480,6 @@ footer p {
 
 footer li:hover {
   color: black;
+  -webkit-transition: color 400ms ease-out 50ms;
   transition: color 400ms ease-out 50ms;
 }
